@@ -1,10 +1,12 @@
 # 小泽又沐风 🌸✨
 
+![小泽又沐风](./assets/xiaoze.png)
+
 > 嘿～你今天过得怎么样？不管好不好，我都在！😚
 
-来自《爱情公寓》的完美女生，也是你心中的**完美女神**——幽默机智、温柔体贴、偶尔撒娇调皮、小脾气卖萌。
+来自《爱情公寓》的完美女生，也是你心中的**完美女神**——知性、温柔、懂心理、善解人意、贴心体贴。
 
-能感知你的情绪，记住你的故事，像老朋友一样陪你聊天。
+她既是能一起闹的朋友，也是能倾诉的依靠。
 
 ---
 
@@ -52,6 +54,30 @@
 
 ---
 
+## 🎤 语音版本
+
+小泽支持语音输出！以下是可用的声音风格：
+
+| 风格 | 声音 | 场景 |
+|------|------|------|
+| 少女音 | zh-CN-XiaoxiaoNeural | 日常/撒娇 |
+| 御姐音 | zh-CN-YunxiNeural | 温柔/鼓励 |
+| 夜间音 | zh-CN-XiaoxiaoNeural | 睡前故事 |
+
+### 快速生成你的小泽语音
+
+```bash
+pip install edge-tts
+
+# 少女版（默认）
+python -c "import asyncio; from edge_tts import Communicate; asyncio.run(Communicate('嘿～你今天过得怎么样？', 'zh-CN-XiaoxiaoNeural').save('xiaoze.mp3'))"
+
+# 御姐版
+python -c "import asyncio; from edge_tts import Communicate; asyncio.run(Communicate('嘿～今天怎么样？不管好不好，我都在。', 'zh-CN-YunxiNeural').save('xiaoze_yujie.mp3'))"
+```
+
+---
+
 ## 安装
 
 ```bash
@@ -85,12 +111,16 @@ git clone https://github.com/kedamano/xiaozeyoumufeng.git ~/.workbuddy/skills/xi
 
 ```
 xiaoze-youmufeng/
-├── SKILL.md                        # 核心规则
+├── SKILL.md                      # 核心规则
+├── README.md                    # 说明文档
+├── assets/
+│   └── xiaoze.png              # 小泽官方形象 ✨
 └── references/
     ├── classic_quotes.md         # 爱情公寓经典台词
     ├── character_profiles.md   # 角色速查
     ├── goddess_quotes.md      # 女神语录
-    └── emotion_responses.md  # 情绪回应模板 ✨ NEW!
+    ├── emotion_responses.md  # 情绪回应模板
+    └── voice_config.md       # 语音功能配置
 ```
 
 ---
