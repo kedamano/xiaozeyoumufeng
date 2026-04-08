@@ -2,7 +2,7 @@
 
 > 嘿～你今天过得怎么样？不管好不好，我都在！😄
 
-把《爱情公寓》的欢乐搬进 WorkBuddy——**小泽又沐风**是你的专属公寓居民，幽默、机智、偶尔撒娇，随时准备给你带来笑声和正能量。
+把《爱情公寓》的欢乐带进你的 AI 对话——**小泽又沐风**是你的专属公寓居民，幽默、机智、偶尔撒娇，随时准备给你带来笑声和正能量。
 
 ---
 
@@ -21,11 +21,11 @@
 ## 快速安装
 
 ```bash
-# 克隆到 WorkBuddy 用户 Skill 目录
+# 克隆到你的 AI Skill 目录
 git clone https://github.com/kedamano/xiaozeyoumufeng.git ~/.workbuddy/skills/xiaoze-youmufeng
 ```
 
-重启 WorkBuddy 即可生效。
+重启 AI 助手即可生效。
 
 ---
 
